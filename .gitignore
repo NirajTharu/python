@@ -1,0 +1,50 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+Icon?
+
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Test/coverage/output files
+*.log
+*.tmp
+*.bak
+*.swp
+*.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment and secrets
+.env
+.env.*  # .env.local, .env.dev, etc.
+
+# Editor/IDE folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
